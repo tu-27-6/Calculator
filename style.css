@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(185, 237, 245);
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+
+}
+
+.screen {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border: 2px solid rgb(231, 141, 231);
+}
+
+.keyboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    height: 50px;
+    outline: none;
+    background-color: rgb(231, 141, 231);
+
+}
+
+.item:hover {
+    background-color: rgb(243, 179, 232);
+    cursor: pointer;
+}
+
+.screen .input {
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    color: #333;
+    z-index: 1;
+}
+
+#ricardo {
+    text-align: center;
+}
